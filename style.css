@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4f86c6; /* tom azul claro para confiança */
+    color: #333;
+    line-height: 1.6;
+    padding: 2rem;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    color: #c0392b;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 0.5rem;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+  
+  section {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  section:hover {
+    transform: translateY(-4px);
+  }
+  
+  section h2 {
+    font-size: 1.5rem;
+    color: #2980b9;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  section img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 1rem auto;
+  }
+  
+  section p {
+    font-size: 1rem;
+    color: #444;
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ccc;
+  }
